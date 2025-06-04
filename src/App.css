@@ -1,4 +1,3 @@
-/* עיצוב כללי לאפליקציה */
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
@@ -7,7 +6,6 @@
   padding: 20px;
 }
 
-/* עיצוב לכותרת הראשית */
 #title {
   font-size: 32px;
   color: #2c3e50;
@@ -15,7 +13,6 @@
   text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
-/* עיצוב לקונטיינר הכרטיסיות */
 #grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -24,14 +21,12 @@
   margin: 0 auto;
 }
 
-/* עיצוב למסך טעינה */
 .loading {
   font-size: 24px;
   color: #2c3e50;
   margin-top: 100px;
 }
 
-/* עיצוב רספונסיבי למסכים קטנים */
 @media (max-width: 768px) {
   #grid-container {
     grid-template-columns: 1fr;
