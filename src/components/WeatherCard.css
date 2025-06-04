@@ -1,0 +1,56 @@
+.grid-item {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative; /* חשוב לתמיכה במיקום absolute */
+}
+
+.Weather-image {
+  width: 50px; /* קטן יותר - היה 80px */
+  height: 50px; /* קטן יותר - היה 80px */
+  position: absolute; /* מיקום מדויק */
+  top: 15px; /* מרחק מלמעלה */
+  left: 15px; /* מרחק משמאל */
+  object-fit: contain; /* שומר על יחס התמונה */
+}
+
+.info {
+  margin-top: 0; /* הורדנו את הרווח שהיה בגלל התמונה במרכז */
+  padding-top: 10px; /* רווח קטן מלמעלה */
+}
+
+.info h2 {
+  margin: 10px 0;
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+.info h4 {
+  margin: 5px 0 15px 0;
+  color: #7f8c8d;
+  font-weight: normal;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ecf0f1;
+}
+
+th {
+  background-color: #f8f9fa;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+td {
+  color: #34495e;
+}
